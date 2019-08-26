@@ -25,9 +25,28 @@ switch (userCommand) {
 
 // FUNCTIONS -------------------------------------------------------
 
-// CONCERT
+// CONCERT bands in town
 function concertThis() {
-    console.log('concert');
+    var band = process.argv[3]
+
+    axios.get("https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp").then(
+        function(res){
+            if (band === undefined){
+                console.log("ya forgot to put in a band!")
+            } else {
+                console.log("Next Show For " + band);
+                console.log(res.data[0].venue.name);
+                console.log(res.data[0].venue.city);
+                console.log(res.data[0].datetime);
+
+            }
+        })
+        .catch(function(err){
+            if (err.res) {
+                console.log("Error", error.message);
+            }
+            console.log(err.config);
+        });
 }
 
 // DO WHAT IT SAYS
