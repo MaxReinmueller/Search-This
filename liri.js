@@ -3,8 +3,8 @@ var axios = require("axios");
 var keys = require("./keys.js");
 // var spotify = new Spotify(keys.spotify);
 
+// THE APP --------------------------------------------------------
 var userCommand = process.argv[2];
-
 switch (userCommand) {
     case "movie-this":
         movieThis();
@@ -23,8 +23,9 @@ switch (userCommand) {
         break;
 }
 
+// FUNCTIONS -------------------------------------------------------
 
-// CONCERT THIS
+// CONCERT
 function concertThis() {
     console.log('concert');
 }
@@ -35,13 +36,12 @@ function doWhatItSays() {
 }
 
 
-// SPOTIFY THIS
+// SPOTIFY
 function spotifyThis() {
     console.log('spotify this');
 }
 
-
-// MOVIE THIS
+// MOVIE
 function movieThis() {
     movie = process.argv[3];
 
