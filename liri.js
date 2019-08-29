@@ -1,8 +1,8 @@
 require("dotenv").config();
 var axios = require("axios");
 var keys = require("./keys.js");
-// var spotify = new Spotify(keys.spotify);
-
+var moment = require('moment');
+var Spotify = require('node-spotify-api');
 
 // THE APP --------------------------------------------------------
 var userCommand = process.argv[2];
@@ -28,7 +28,30 @@ switch (userCommand) {
 
 // SPOTIFY
 function spotifyThis() {
-    console.log('spotify this');
+    var spotify = new Spotify(keys.spotify);
+    var songName = process.argv[3]
+
+    if(songName === undefined){
+        songName = "the sign ace of base";
+    }
+
+    spotify.search({ type: 'track', query: songName,  limit: 1}, function(err, res) {
+	    if (res) { 
+
+           var data = res.tracks.items[0];
+                        
+             console.log(
+                "\nArtists: " + data.artists[0].name + 
+                "\nSong: " + songName +
+                 "\nLink: " + data.href +
+                 "\nAlbum: " + data.album.name
+             );
+
+
+        } else
+        {console.log('Error: ' + err);}
+	
+	});
 }
 
 // DO WHAT IT SAYS
@@ -45,12 +68,12 @@ function concertThis() {
                 if (band === undefined) {
                     console.log("ya forgot to put in a band!")
                 } else {
-                    console.log("Next Show For " + band);
-                    console.log("venue: " + res.data[0].venue.name);
-                    console.log("City: " + res.data[0].venue.city);
-                    console.log("Date: " + res.data[0].datetime);
                     var date = res.data[0].datetime;
-                    console.log("Moment.js date: UNDEFINED" );
+                    console.log("--------------------------" + 
+                    "\nNext Show For " + band + 
+                    "\nvenue: " + res.data[0].venue.name +
+                    "\nCity: " + res.data[0].venue.city + 
+                    "\nDate: " + moment(date).format("dddd, MMMM Do YYYY, h:mm:ss a"));
                 }
             })
         .catch(function (err) {
