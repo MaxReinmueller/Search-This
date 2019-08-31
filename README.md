@@ -17,6 +17,7 @@
   1. Using your terminal and the "cd" command, navagate to the folder you downloaded.
   1. Once in the folder, type in: node liri.js "the-command-you-want-to-use" "what-you-want-to-look-up"
       * example: node liri.js movie-this rocky
+      * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
     * commands
       * movie-this
       * spotify-this
