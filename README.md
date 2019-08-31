@@ -45,11 +45,15 @@ https://github.com/MaxReinmueller/liri-node-app
      * jquery - https://code.jquery.com/
    * node
      * npm's
+       * FS (internal node package)
+       * keys - (internal node package)
        * node-spotify-api - https://www.npmjs.com/package/node-spotify-api
        * axios - https://www.npmjs.com/package/axios
+       * dotenv - https://www.npmjs.com/package/dotenv
  * API's
-  * bandsintown
-  * spotify
+  * Bands in Town - https://manager.bandsintown.com/support/bandsintown-api
+  * Spotify - https://developer.spotify.com/documentation/web-api/
+  * OMDB - http://www.omdbapi.com/
 
 * State your role in the app development
 
