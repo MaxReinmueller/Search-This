@@ -5,7 +5,7 @@ Run searches to find out more about your favorite songs, movies, bands, and more
 
 Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
 
-## Organization
+### Organization
   * The app is ran in node and accessed throught the command line. 
   * Specific API's are used to access data.
   * javascript functions and node packages are used to organize the data that is output to the user.
@@ -17,7 +17,7 @@ Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
   
    * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
       
-## Command examples
+### Command examples
   * **movie-this** - _look up any movie to learn more about the film or decide what to watch._
   
   ![movie-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
@@ -26,11 +26,11 @@ Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
  
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/eye_of_the_tiger.jpg)
 
-  * **concert-this** - _find out about a bands upcoming show so you don't miss out!*_
+  * **concert-this** - _find out about a bands upcoming show so you don't miss out!_
    
   ![concert-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rolling_stones.jpg)
 
-  * **do-what-it-says** - _run the command to find a hidden search!*_
+  * **do-what-it-says** - _run the command to find a hidden search!_
     
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/do_what_it_says.jpg)
       
