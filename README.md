@@ -2,11 +2,11 @@
 
 
 * Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-  *concert-this
+  1. concert-this
     * find out about a bands upcoming show
-  *spotify-this
+  1. potify-this
     * search for a song and info about the album its on
-  *movie-this
+  1. movie-this
     * find out information about any movie
 
 * Give a high-level overview of how the app is organized
