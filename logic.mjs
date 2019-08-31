@@ -1,34 +1,4 @@
-require("dotenv").config();
-var axios = require("axios");
-var keys = require("./keys.js");
-var moment = require('moment');
-var Spotify = require('node-spotify-api');
-var fs = require("fs");
-
-var userCommand = process.argv[2];
-var input = process.argv[3];
-
-function theApp(){
-
-switch (userCommand) {
-    case "movie-this":
-        movieThis();
-        break;
-
-    case "concert-this":
-        concertThis();
-        break;
-
-    case "do-what-it-says":
-        doWhatItSays();
-        break;
-
-    case "spotify-this":
-        spotifyThis();
-        break;
-}
-};
-theApp();
+export function logic(){
 
 // DO WHAT IT SAYS
 // reads a text file an use it to call a liri command
@@ -130,4 +100,6 @@ function concertThis() {
             }
             console.log(err.config);
         });
+}
+
 }
