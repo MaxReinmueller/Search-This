@@ -18,19 +18,23 @@ Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
    * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
       
 ## Command examples
-  * movie-this - look up any movie to learn more about the film or decide what to watch.
+  * **movie-this**
+  *look up any movie to learn more about the film or decide what to watch.
   
   ![movie-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
 
-  * spotify-this - search for any song to learn more about the album its on and the artist it's by.
+  * **spotify-this**
+  *search for any song to learn more about the album its on and the artist it's by.
  
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/eye_of_the_tiger.jpg)
 
-  * concert-this - find out about a bands upcoming show so you don't miss out!
+  * **concert-this**
+  *find out about a bands upcoming show so you don't miss out!
    
   ![concert-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rolling_stones.jpg)
 
-  * do-what-it-says - run the command to find a hidden search!
+  * **do-what-it-says**
+  *run the command to find a hidden search!
     
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/do_what_it_says.jpg)
       
