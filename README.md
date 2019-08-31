@@ -44,9 +44,9 @@ https://github.com/MaxReinmueller/liri-node-app
      * moment.js - https://momentjs.com/
      * jquery - https://code.jquery.com/
    * node
-    * npm's
-      * node-spotify-api - https://www.npmjs.com/package/node-spotify-api
-      * axios - https://www.npmjs.com/package/axios
+     * npm's
+       * node-spotify-api - https://www.npmjs.com/package/node-spotify-api
+       * axios - https://www.npmjs.com/package/axios
  * API's
   * bandsintown
   * spotify
