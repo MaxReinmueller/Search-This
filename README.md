@@ -4,18 +4,17 @@
 ## Overview
 Run searches to find out more about your favorite songs, movies, bands, and more!      
 
-* Give a high-level overview of how the app is organized
-
+## organization
   * The app is ran in node and accessed throught the command line. 
   * Specific API's are used to access data.
   * javascript functions are used to organize the data that is output to the user.
 
-* Give start-to-finish instructions on how to run the app
-
-  1. Download the app from Github and store the folder on your computer
+## instructions
+  1. Download the app from Github and store the folder on your computer.
   1. Using your terminal and the "cd" command, navagate to the folder you downloaded.
   1. Once in the folder, type in: node liri.js "the-command-you-want-to-use" "what-you-want-to-look-up"
-      * example: node liri.js movie-this rocky
+   * see command examples for clarification.
+      
       * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
       
 ## command examples
@@ -36,15 +35,23 @@ Run searches to find out more about your favorite songs, movies, bands, and more
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/do_what_it_says.jpg)
       
 
+## link to deployed version
+https://github.com/MaxReinmueller/liri-node-app
 
-
-
-
-
-
-* Contain a link to a deployed version of the app
-
-* Clearly list the technologies used in the app
+## technologies used
+ * Javascript
+  * libraries
+   * moment.js - https://momentjs.com/
+   * jquery - https://code.jquery.com/
+  * node
+   * npm's
+    * node-spotify-api - https://www.npmjs.com/package/node-spotify-api
+    * axios - https://www.npmjs.com/package/axios
+   
+  
+ * API's
+  * bandsintown
+  * spotify
 
 * State your role in the app development
 
