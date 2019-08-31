@@ -25,7 +25,7 @@
       
 
 * Include screenshots, gifs or videos of the app functioning
-![GitHub Logo](/images/logo.png)
+![concert-this exampe](/img/rocky.jpeg)
 Format: ![Alt Text](url)
 
 * Contain a link to a deployed version of the app
