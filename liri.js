@@ -61,14 +61,14 @@ function movieThis() {
                     console.log("http://www.imdb.com/title/tt0485947/");
                 } else {
                     console.log("--------------------------");
-                    console.log("TITLE: " + response.data.Title);
-                    console.log("YEAR PRODUCED: " + response.data.Year);
-                    console.log("IMDB RATING: " + response.data.imdbRating);
-                    console.log("ROTTEN TOMATOES RATING: " + response.data.Ratings[1].Value);
-                    console.log("PRODUCED IN: " + response.data.Country);
-                    console.log("LANGUAGE: " + response.data.Language);
-                    console.log("PLOT: " + response.data.Plot);
-                    console.log("ACTORS: " + response.data.Actors);
+                    console.log("TITLE: " + response.data.Title + 
+				"\nYEAR PRODUCED: " + response.data.Year + 
+				"\nIMDB RATING: " + response.data.imdbRating + 
+				"\nROTTEN TOMATOES RATING: " + response.data.Ratings[1].Value + 
+				"\nPRODUCED IN: " + response.data.Country + 
+				"\nLANGUAGE: " + response.data.Language + 
+				"\nPLOT: " + response.data.Plot + 
+				"\nACTORS: " + response.data.Actors);
                 }
             })
         .catch(function (error) {
