@@ -25,8 +25,8 @@
       
 
 * Include screenshots, gifs or videos of the app functioning
-![concert-this exampe](/img/rocky.jpeg)
-Format: ![Alt Text](url)
+![concert-this exampe](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
+Format: ![Alt Text](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
 
 * Contain a link to a deployed version of the app
 
