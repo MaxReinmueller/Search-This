@@ -7,15 +7,14 @@ Run searches to find out more about your favorite songs, movies, bands, and more
 ## organization
   * The app is ran in node and accessed throught the command line. 
   * Specific API's are used to access data.
-  * javascript functions are used to organize the data that is output to the user.
+  * javascript functions and node packages are used to organize the data that is output to the user.
 
 ## instructions
   1. Download the app from Github and store the folder on your computer.
   1. Using your terminal and the "cd" command, navagate to the folder you downloaded.
   1. Once in the folder, type in: node liri.js "the-command-you-want-to-use" "what-you-want-to-look-up"
-   * see command examples for clarification.
-      
-      * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
+  
+   * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
       
 ## command examples
   * movie-this
@@ -51,10 +50,11 @@ https://github.com/MaxReinmueller/liri-node-app
        * axios - https://www.npmjs.com/package/axios
        * dotenv - https://www.npmjs.com/package/dotenv
  * API's
-  * Bands in Town - https://manager.bandsintown.com/support/bandsintown-api
-  * Spotify - https://developer.spotify.com/documentation/web-api/
-  * OMDB - http://www.omdbapi.com/
+   * Bands in Town - https://manager.bandsintown.com/support/bandsintown-api
+   * Spotify - https://developer.spotify.com/documentation/web-api/
+   * OMDB - http://www.omdbapi.com/
 
-* State your role in the app development
+## My roll development
+The concept for the app was provided by Trilogy. I developed the concept by writing scripts to utilze API's and output the user's requested information to their terimal.
 
-
+I included libraries and node packages to reduce development time.
