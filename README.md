@@ -1,16 +1,8 @@
 # liri-node-app
 
 
-* Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-
-  1. concert-this
-      * find out about a bands upcoming show so you don't miss out!
-  1. spotify-this
-      * search for a song and info about the album its on to find more songs by that artist.
-  1. movie-this
-      * look up information about any movie to decide what to watch.
-  1. do-what-it-says
-      * run the command to find a hidden search!
+## Overview
+Run searches to find out more about your favorite songs, movies, bands, and more!      
 
 * Give a high-level overview of how the app is organized
 
@@ -26,18 +18,22 @@
       * example: node liri.js movie-this rocky
       * IMPORTANT: if your search has spaces, make sure to wrap your text in quotes. example: node liri.js concert-this "the rolling stones"
       
-  1. commands
-    * movie-this
-    ![movie-this exampe](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
+## command examples
+  * movie-this
+    * look up any movie to learn more about the film or decide what to watch.
+  ![movie-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
 
-    * spotify-this
-    ![spotify-this exampe](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
+  * spotify-this
+    * search for any song to learn more about the album its on and the artist it's by.
+  ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/eye_of_the_tiger.jpg)
 
-    * concert-this
-    ![concert-this exampe](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
+  * concert-this
+    * find out about a bands upcoming show so you don't miss out!
+  ![concert-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rolling_stones.jpg)
 
-    * do-what-it-says
-    ![spotify-this exampe](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
+  * do-what-it-says
+    * run the command to find a hidden search!
+  ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/do_what_it_says.jpg)
       
 
 
