@@ -24,7 +24,7 @@ Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
   ![movie-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/rocky.jpg)
 
   * **spotify-this**
-  *search for any song to learn more about the album its on and the artist it's by.*
+  _search for any song to learn more about the album its on and the artist it's by._
  
   ![spotify-this](https://github.com/MaxReinmueller/liri-node-app/blob/master/img/eye_of_the_tiger.jpg)
 
