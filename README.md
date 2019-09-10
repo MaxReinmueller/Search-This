@@ -1,7 +1,7 @@
 # liri-node-app
 
 ## Overview
-Run searches to find out more about your favorite songs, movies, bands, and more!
+Run searches to find out more about your favorite songs, movies, bands, and a secret search!
 
 Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
 
