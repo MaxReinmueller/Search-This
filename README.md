@@ -5,11 +5,6 @@ Run searches to find out more about your favorite songs, movies, bands, and more
 
 Link to deployed version - https://github.com/MaxReinmueller/liri-node-app
 
-### Organization
-  * The app is ran in node and accessed throught the command line. 
-  * Specific API's are used to access data.
-  * javascript functions and node packages are used to organize the data that is output to the user.
-
 ## Instructions
   1. Download the app from Github and store the folder on your computer.
   1. Using your terminal and the "cd" command, navagate to the folder you downloaded.
@@ -39,7 +34,12 @@ The concept for the app was provided by Trilogy. I developed the concept by writ
 
 I included libraries and node packages to reduce development time.
 
-### Technologies used
+### Organization
+  * The app is ran in node and accessed throught the termial command line. 
+  * Specific API's are used to access data.
+  * javascript functions and node packages are used to organize the data that is output to the user.
+
+## Technologies used
  * Javascript
    * libraries
      * moment.js - https://momentjs.com/
