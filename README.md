@@ -1,4 +1,4 @@
-# liri-node-app
+# Search This
 
 ## Overview
 Run searches to find out more about your favorite songs, movies, bands, and a secret search!
