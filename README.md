@@ -39,7 +39,7 @@ I included libraries and node packages to reduce development time.
   * Specific API's are used to access data.
   * javascript functions and node packages are used to organize the data that is output to the user.
 
-## Technologies used
+### Technologies used
  * Javascript
    * libraries
      * moment.js - https://momentjs.com/
